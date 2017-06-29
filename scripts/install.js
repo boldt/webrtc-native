@@ -7,7 +7,7 @@ var request = require('request');
 var PLATFORM = os.platform();
 var ROOT = path.resolve(__dirname, '..');
 var ARCH = os.arch();
-var URL = 'http://cide.cc:8080/webrtc/';
+var URL = 'http://dennis-boldt.de/webrtc/';
 var NODEVER = process.version.split('.');
 var PACKAGE = require(path.resolve(ROOT, 'package.json'));
 
